@@ -1,0 +1,20 @@
+:root {
+	--invert: 100%;
+}
+
+html {
+	filter: invert(var(--invert)) hue-rotate(180deg);
+}
+
+img,
+[class*="bg"],
+[style*="background-image"],
+[style*=".png"],
+[style*=".jpg"],
+[style*=".gif"],
+[style*=".svg"],
+svg,
+video,
+canvas {
+	filter: invert(var(--invert)) hue-rotate(180deg);
+}
